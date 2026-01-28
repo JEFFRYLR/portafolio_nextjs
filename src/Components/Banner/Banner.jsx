@@ -60,10 +60,10 @@ const Banner = () => {
             <div className="banner__content">
               <Link to={""} className="bn__currently">
                 <span className="d-block">
-                  Ingeniero de Software Freelanecer
+                  Ingeniero de Software 
                 </span>
                 <span className="d-flex gap-4 align-items-center">
-                  lATAM & USA
+                  LATAM & USA
                   <i className="bi bi-arrow-up-right"></i>
                 </span>
               </Link>

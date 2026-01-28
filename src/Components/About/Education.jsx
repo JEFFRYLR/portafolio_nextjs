@@ -13,21 +13,13 @@ const Education = ({isTabActive}) => {
           </div>
           <div className="col-lg-7">
             <div className="about__onecontent">
-              <h2>My Education</h2>
+              <h2>Formación Académica</h2>
               <p>
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                consectetur, aliquam quaerats voluptatem. Ut enim ad minima
-                veniam, exercitationem laboriosam, nisi ut aliquid ex ea autem
-                velit esse quam nihil
+                He cursado estudios en ingeniería de software e ingeniería de petróleo, adquiriendo
+                habilidades técnicas y prácticas que me permiten crear soluciones innovadoras
+                y eficientes.
               </p>
               <div className="exprience__box mt-30">
-                <div className="exri__item">
-                  <span className="fz-18 fw-500 base">2011-2013</span>
-                  <div className="expri__cont">
-                    <h4 className="mb-15 text-white">Programming Course</h4>
-                    <p className="fz-18 pra d-block">New York University</p>
-                  </div>
-                </div>
                 <div className="exri__item">
                   <span className="fz-18 fw-500 base">2013-2016</span>
                   <div className="expri__cont">
@@ -36,10 +28,17 @@ const Education = ({isTabActive}) => {
                   </div>
                 </div>
                 <div className="exri__item">
-                  <span className="fz-18 fw-500 base">2016-2018</span>
+                  <span className="fz-18 fw-500 base">2013</span>
                   <div className="expri__cont">
-                    <h4 className="mb-15 text-white">Web Design Course</h4>
-                    <p className="fz-18 pra d-block">New York University</p>
+                    <h4 className="mb-15 text-white">Petroleum engineering</h4>
+                    <p className="fz-18 pra d-block">Universidad De Oriente</p>
+                  </div>
+                </div>
+                <div className="exri__item">
+                  <span className="fz-18 fw-500 base">2004</span>
+                  <div className="expri__cont">
+                    <h4 className="mb-15 text-white">Bachiller</h4>
+                    <p className="fz-18 pra d-block">U.E. Francisco Isnardi</p>
                   </div>
                 </div>
               </div>

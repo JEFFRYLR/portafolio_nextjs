@@ -72,7 +72,8 @@ const AboutMe = ({ isTabActive }) => {
                 data-aos="fade-up"
                 data-aos-duration="500"
               >
-                Ingeniero de petróleo y de software, con experiencia en el desarrollo de soluciones tecnológicas para la industria petrolera, integrando ingeniería, datos y automatización para optimizar procesos y operaciones.
+                Ingeniero de Petróleo, especialista en Desarrollo de Software. Alta capacidad de adaptación y trabajo en equipo; autodidacta y con enfoque permanente en asumir retos donde se pueda generar valor utilizando la tecnología.
+                <br /> <br />Conocimientos en desarrollo de aplicaciones web y de escritorio, utilizando lenguajes como JavaScript (Next.js), C# y Java. Manejo de bases de datos SOL. Énfasis en la implementación de la cultura DevOps como pilar fundamental en los procesos ágiles.
               </p>
               <div className="about__contactwrap">
                 <div className="row g-4">
