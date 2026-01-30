@@ -5,33 +5,33 @@ import Title from "../Shared/Title/Title";
 const serviceList = [
   {
     id: "01",
-    heading: "Illustration Design",
-    subHeading: "Designer",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Desarrollo Web y de Aplicaciones desktop",
+    subHeading: "Software",
+    para: "Desarrollo aplicaciones web y de escritorio, creando soluciones funcionales y escalables enfocadas en rendimiento, seguridad y una excelente experiencia de usuario.",
   },
   {
     id: "02",
-    heading: "Business Branding",
-    subHeading: "Branding",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Despliegue de codigo en servidores",
+    subHeading: "Devops",
+    para: "Gestiono el despliegue de aplicaciones en servidores, automatizando procesos y garantizando estabilidad, seguridad y disponibilidad de los entornos productivos.",
   },
   {
     id: "03",
-    heading: "Web UI/UX Design",
-    subHeading: "UI/UX Design",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: "Análisis de Datos",
+    subHeading: "Data analytics",
+    para: "Analizo datos para extraer información valiosa, generando insights que apoyan la toma de decisiones y optimizan procesos estratégicos.",
   },
   {
     id: "04",
-    heading: "Application Design",
+    heading: "Diseño de intefazes de usuario",
     subHeading: " Web Design",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    para: "Diseño interfaces de usuario intuitivas y funcionales, enfocadas en usabilidad, experiencia visual y coherencia con los objetivos del producto.",
   },
   {
     id: "05",
-    heading: " Digital Marketing",
-    subHeading: "SEO Analytics",
-    para: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. sunt in culpa qui officia deserunt mollit",
+    heading: " Arquitectura de Software",
+    subHeading: "Software",
+    para: "Diseño arquitecturas de software sólidas y escalables, definiendo estructuras, patrones y tecnologías que aseguran mantenibilidad y alto rendimiento.",
   },
 ];
 const Services = ({ isHeading }) => {
@@ -43,8 +43,8 @@ const Services = ({ isHeading }) => {
       <div className="container">
         {isHeading && (
           <Title
-            mainTitle="My Special Service For Your Business Development"
-            sortTitle="Services That i Provide"
+            mainTitle="Habilidades y Servicios"
+            sortTitle="Algo que puedo hacer"
           />
         )}
 

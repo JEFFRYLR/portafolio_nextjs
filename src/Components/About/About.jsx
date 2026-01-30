@@ -56,7 +56,7 @@ const About = () => {
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              Soy Jeffry La Rosa, ingeniero de desarrollo de software & petróleo. 
+              Ingeniero de desarrollo de software & petróleo. 
             </p>
           </div>
           <div className="singletab">

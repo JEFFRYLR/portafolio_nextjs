@@ -8,6 +8,8 @@ import netcore from "../../assets/img/about/netcore2.png";
 import sqlserver from "../../assets/img/about/sqlserver.png";
 import linux from "../../assets/img/about/linux.png";
 import javascript from "../../assets/img/about/javascript.png";
+import docker from "../../assets/img/about/docker.png";
+import tail from "../../assets/img/about/tail.png";
 
 const skillsList = [
   {
@@ -43,20 +45,20 @@ const skillsList = [
   {
     id: 6,
     skill: "Javascript",
-    percentage: "97%",
+    percentage: "86%",
     image: javascript,
   },
     {
     id: 7,
-    skill: "Linux",
-    percentage: "80%",
-    image: linux,
+    skill: "Docker",
+    percentage: "75%",
+    image: docker,
   },
   {
     id: 8,
-    skill: "Javascript",
-    percentage: "97%",
-    image: javascript,
+    skill: "Tailwind CSS",
+    percentage: "81%",
+    image: tail,
   },
 ];
 const Skills = ({ isTabActive }) => {

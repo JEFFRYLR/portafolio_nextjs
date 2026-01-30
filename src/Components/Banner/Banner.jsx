@@ -101,11 +101,11 @@ const Banner = () => {
           <Link to={""}>
             <img src={dial} alt="img" />
           </Link>
-          <Link to={""}>(+02)-574-328-301</Link>
+          <Link to={""}>(+57)-350-573-2701</Link>
         </div>
         <div className="right__infoscroll">
           <Link className="scroll">
-            scroll down
+            explora
           </Link>
           <Link className="scroll__bar">
             <img src={scrollDown} alt="img" />
@@ -115,7 +115,7 @@ const Banner = () => {
       <div className="banner__rightinfo">
         <div className="right__infoscroll">
           <Link to={""} className="scroll">
-            Follow Me
+            Sígueme
           </Link>
           <Link to={""} className="scroll__bar">
             <img src={scrollDown} alt="img" />

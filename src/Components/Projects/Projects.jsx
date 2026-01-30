@@ -5,6 +5,7 @@ import Lightbox from "../Shared/LightBox/LightBox";
 import ProjectCard from "../Shared/ProjectCard/ProjectCard";
 import { imagesList, projectList } from "../../Utlits/projectList";
 import { Link } from "react-router-dom";
+import personalInfoThumb from "../../assets/img/project/logolink.png";
 
 const Projects = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -44,8 +45,9 @@ const Projects = () => {
             data-aos-duration="2000"
           >
             <span className="box">
-              <i className="bi bi-arrow-up-right"></i>
-              <span className="textmore"> Click More Work </span>
+              <i className="bi bi-arrow-up-right "></i>
+               <img src={personalInfoThumb} alt="Perfil de Linkedin" width={50} height={50}/><br/>
+              <span className="textmore"> Perfil de Linkedin </span>
             </span>
           </Link>
         </div>
