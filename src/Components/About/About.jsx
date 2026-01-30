@@ -27,7 +27,7 @@ const tabList = [
   },
   {
     id: 4,
-    name: "Skills",
+    name: "Fortalezas",
     value: "skills",
   },
 ];
