@@ -17,14 +17,14 @@ const Blogs = () => {
                 data-aos="fade-down"
                 data-aos-duration="1000"
               >
-                My Blogs
+                Mis Post
               </span>
               <h2
                 className="fw-500 mt-3"
                 data-aos="fade-down"
                 data-aos-duration="1500"
               >
-                Recent Posts
+                últimos Blogs
               </h2>
               <div className="blog__hoverbox">
                 <Link

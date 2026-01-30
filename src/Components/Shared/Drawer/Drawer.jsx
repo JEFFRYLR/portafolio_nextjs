@@ -1,6 +1,6 @@
 import React from "react";
 import { XLg, ChevronRight } from "react-bootstrap-icons";
-import logo from "../../../assets/img/logo/logo.png";
+import logo from "../../../assets/img/logo/Logo_Jeffry_la_rosa.png";
 import { socialIcons } from "../../../Utlits/socilIcons";
 import { Link } from "react-router-dom";
 
@@ -20,38 +20,35 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
           <img src={logo} alt="img" />
         </Link>
         <p>
-          Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-          consectetur, aliquam quaerats voluptatem. Ut enim ad minima veniam,
-          exercitationem laboriosam, nisi ut aliquid ex ea autem velit esse quam
-          nihil
+          Este es mi portafolio como desarrollador de software, donde presento proyectos, soluciones y experiencias construidas a partir del análisis, la tecnología y la mejora continua. Diseño y desarrollo sistemas funcionales, escalables y orientados a generar valor real.
         </p>
         <div className="sub__contact-left d-grid">
           <div className="sub__contac-item">
             <div className="content">
-              <span className="address d-block"> address </span>
-              <span className="textp"> Victoria Street London, </span>
+              <span className="address d-block"> Dirección </span>
+              <span className="textp"> Bogotá, Colombia </span>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
-              <span className="address d-block"> email </span>
-              <Link className="textp"> matias999@.com </Link>
+              <span className="address d-block"> Correo </span>
+              <Link className="textp"> ingjeffrylr@.com </Link>
             </div>
           </div>
           <div className="sub__contac-item">
             <div className="content">
-              <span className="address d-block"> call now </span>
-              <Link className="textp"> +98 4758 2154 021 </Link>
+              <span className="address d-block"> Whatsapp </span>
+              <Link className="textp"> +57 350 573 2701 </Link>
             </div>
           </div>
         </div>
         <div className="sub__contact-right mb-80 position-relative">
           <ul className="social d-flex gap-3">
-            {socialIcons.map(({ icon, id }) => (
+            {socialIcons.map(({ icon, id, url }) => (
               <li key={id}>
-                <Link>
+                <a href={url} target="_blank" rel="noopener noreferrer">
                   <i>{icon}</i>
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
@@ -65,7 +62,7 @@ const Drawer = ({ isSidebarActive, setIsSidebarActive }) => {
               <ChevronRight />
             </i>
           </span>
-          <span className="get__text"> Let's Talk </span>
+          <span className="get__text"> Conversemos</span>
         </Link>
       </div>
     </div>

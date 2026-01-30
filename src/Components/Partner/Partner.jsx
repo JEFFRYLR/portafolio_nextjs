@@ -1,8 +1,8 @@
 import React from "react";
-import partner1 from "../../assets/img/testimonial/partner1.png";
-import partner2 from "../../assets/img/testimonial/partner2.png";
-import partner3 from "../../assets/img/testimonial/partner3.png";
-import partner4 from "../../assets/img/testimonial/partner4.png";
+import partner1 from "../../assets/img/testimonial/docker.png";
+import partner2 from "../../assets/img/testimonial/github.png";
+import partner3 from "../../assets/img/testimonial/microsoft.png";
+import partner4 from "../../assets/img/testimonial/amazon.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -44,7 +44,7 @@ const Partner = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          More than 100+ companies trusted us worldwide
+          Tecnologías y herramientas con las que he trabajado
         </h4>
         <div className="swiper sponsor__wrap">
           <Swiper

@@ -135,13 +135,11 @@ const BlogDetails = () => {
                     <div className="post__right">
                       <span className="fz-20 fw-500 white">Share :</span>
                       <ul className="social-cus d-flex align-items-center">
-                        {socialIcons.map(({id, icon}) => (
+                        {socialIcons.map(({ id, icon, url }) => (
                           <li key={id}>
-                            <Link to="">
-                              <i>
-                                {icon}
-                              </i>
-                            </Link>
+                            <a href={url} target="_blank" rel="noopener noreferrer">
+                              <i>{icon}</i>
+                            </a>
                           </li>
                         ))}
                       </ul>

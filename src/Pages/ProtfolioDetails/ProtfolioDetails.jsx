@@ -62,11 +62,11 @@ const ProtfolioDetails = () => {
                 </div>
               </div>
               <ul className="social d-flex gap-3">
-                {socialIcons.map(({ icon, id }) => (
+                {socialIcons.map(({ icon, id, url }) => (
                   <li key={id}>
-                    <Link to={""}>
+                    <a href={url} target="_blank" rel="noopener noreferrer">
                       <i>{icon}</i>
-                    </Link>
+                    </a>
                   </li>
                 ))}
               </ul>

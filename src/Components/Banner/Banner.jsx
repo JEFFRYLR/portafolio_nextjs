@@ -8,6 +8,7 @@ import {
   Globe,
   Instagram,
   PlayFill,
+  Github,
 } from "react-bootstrap-icons";
 
 import bannerMan from "../../assets/img/banner/banner-man.png";
@@ -20,22 +21,27 @@ const socalIcon = [
   {
     id: 1,
     icon: <Facebook />,
+    url: "https://www.facebook.com/jeffry.larosa.7/",
   },
   {
     id: 2,
-    icon: <Twitter />,
+    icon: <Github />,
+    url: "https://github.com/JEFFRYLR",
   },
   {
     id: 3,
     icon: <Linkedin />,
+    url: "https://www.linkedin.com/in/jeffrylarosa/",
   },
   {
     id: 4,
     icon: <Globe />,
+    url: "https://www.jeffrylarosa.com/",
   },
   {
     id: 5,
     icon: <Instagram />,
+    url: "https://www.instagram.com/jeffrylarosa/",
   },
 ];
 const Banner = () => {
@@ -123,12 +129,12 @@ const Banner = () => {
         </div>
         <div className="banner__xlsocial">
           <ul className="banner__soci d-grid justify-content-center">
-            {socalIcon.map(({ icon, id }) => {
+            {socalIcon.map(({ icon, id, url }) => {
               return (
                 <li key={id}>
-                  <Link to={""} >
+                  <a href={url} target="_blank" rel="noopener noreferrer">
                     <i>{icon}</i>
-                  </Link>
+                  </a>
                 </li>
               );
             })}

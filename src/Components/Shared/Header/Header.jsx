@@ -28,7 +28,7 @@ const menuList = [
     id: 4,
     path: "/",
     section: "#services",
-    name: "Servicios",
+    name: "Habilidades",
     dropDown: [
       {
         id: 1,
@@ -42,35 +42,7 @@ const menuList = [
       },
     ],
   },
-  {
-    id: 5,
-    path: "/",
-    section: "#testimonial",
-    name: "Testimonial",
-  },
-  {
-    id: 6,
-    path: "/",
-    section: "#blog",
-    name: "Blog",
-    dropDown: [
-      {
-        id: 1,
-        path: "/all-blog",
-        name: "Blog",
-      },
-      {
-        id: 2,
-        path: "/blog-details",
-        name: "Blog Detalle",
-      },
-    ],
-  },
-  {
-    id: 7,
-    path: "/contact",
-    name: "Contacto",
-  },
+ 
 ];
 
 const Header = () => {

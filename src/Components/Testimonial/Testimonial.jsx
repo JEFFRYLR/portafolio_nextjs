@@ -3,6 +3,9 @@ import { StarFill } from "react-bootstrap-icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import quote from "../../assets/img/testimonial/quote.png";
+import juliethvelasquez from "../../assets/img/testimonial/juliethvelasquez.png";
+import maria from "../../assets/img/testimonial/maria.png";
+import pedro from "../../assets/img/testimonial/pedro.png";
 import man1 from "../../assets/img/testimonial/man1.png";
 import man2 from "../../assets/img/testimonial/man2.png";
 import man3 from "../../assets/img/testimonial/man3.png";
@@ -18,35 +21,24 @@ import { Pagination, Autoplay } from "swiper/modules";
 const reviewList = [
   {
     id: 1,
-    name: "Shawn Beltran",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    name: "María Ramirez",
+    position: "Gerente pjp4/OGS",
+    review: `Conozco a Jeffry, profesional talentoso y exitoso, motivado al logro con buena actitud y disposición para el trabajo en equipo. Perteneció a mi equipo de trabajo, 
+supervisé su desempeño.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
   {
     id: 2,
-    name: "John Methcel",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    name: "Julieth Velásquez",
+    position: "Gerente La Media Digital",
+    review: `Ha sido muy satisfactoria mi experiencia trabajando con Jeffry; Ha construido el entorno de La Media Digital con gran profesionalismo, dedicación y compromiso.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
   {
     id: 3,
-    name: "Nethon Jr",
-    position: "Business Owner",
-    review: `There are many variations of passages of Lorem Ipsum
-    available, by injected humour, or randomised words which
-    don't look even slightly believable. If you are going to
-    use a passage of Lorem Ipsum, you need to be hidden in
-    middle of text. All the Lorem Ipsum generators`,
+    name: "Pedro Salazar",
+    position: "CEO Tech Solutions",
+    review: `Jeffry es un profesional íntegro, responsable y comprometido con su trabajo. Siempre dispuesto a asumir nuevos retos y a aprender cosas nuevas.`,
     stars: [<StarFill className="ratting fz-20" />],
   },
 ];
@@ -56,11 +48,11 @@ const Testimonial = () => {
       <div className="container">
         <div className="project__head text-center">
           <span className="common__sub" data-aos="fade-up" data-aos-duration="1000">
-            Testimonial
+            Referencias
           </span>
           <h2 className="fw-500" data-aos="fade-down" data-aos-duration="1000">
-            Happy Words From Happy
-            <span className="d-block"> Customer </span>
+           Palabras de partners
+            <span className="d-block">  </span>
           </h2>
         </div>
         <div
@@ -113,13 +105,13 @@ const Testimonial = () => {
             <img src={quote} alt="img" />
           </div>
           <div className="man1">
-            <img src={man1} alt="img" />
+            <img src={pedro} alt="img" />
           </div>
           <div className="man2">
-            <img src={man3} alt="img" />
+            <img src={maria} alt="img" />
           </div>
           <div className="man3">
-            <img src={man2} alt="img" />
+            <img src={juliethvelasquez} alt="img" />
           </div>
           <div className="test__shape">
             <img src={testiArrow} alt="img" />

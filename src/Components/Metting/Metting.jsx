@@ -1,5 +1,5 @@
 import React from "react";
-import {Envelope, GeoAlt} from "react-bootstrap-icons"
+import {Envelope, GeoAlt, Github} from "react-bootstrap-icons"
 import mettingImag from "../../assets/img/project/jeffryreunion.png"
 const Metting = () => {
   return (
@@ -48,6 +48,19 @@ const Metting = () => {
                 <span className="box">
                   <span className="ptext fz-18 mb-1 d-block"> Ubicación </span>
                   <a href="#0"> Hayuelos, Bogotá Colombia </a>
+                </span>
+              </div>
+              <div
+                className="about__contbox__item pb-30 pt-30"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
+                <span className="icon">
+                  <Github className="i"/>
+                </span>
+                <span className="box">
+                  <span className="ptext fz-18 mb-1 d-block"> Perfil </span>
+                  <a href="#0">https://github.com/JEFFRYLR</a>
                 </span>
               </div>
             </div>

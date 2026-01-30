@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import sectionStar from "../../assets/img/about/section-star.png";
+import sectionCodigo from "../../assets/img/about/codigo.png";
 import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
@@ -49,14 +49,14 @@ const About = () => {
         <div className="container">
           <div className="personal__head text-center">
             <img
-              src={sectionStar}
+              src={sectionCodigo}
               className="mb-30"
               alt="star"
               data-aos="fade-up"
               data-aos-duration="1000"
             />
             <p className="descrp" data-aos="fade-up" data-aos-duration="1500">
-              Ingeniero de desarrollo de software & petróleo. 
+              Ingeniero de Desarrollo de Software & Petróleo. 
             </p>
           </div>
           <div className="singletab">
