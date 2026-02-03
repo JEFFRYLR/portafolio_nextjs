@@ -108,15 +108,17 @@ const Header = () => {
             })}
           </ul>
           <div className="menu__components d-flex align-items-center">
-            <Link
-              to="/contact"
+            <a
+              href="https://wa.me/573505732701"
+              target="_blank"
+              rel="noopener noreferrer"
               className="d-flex fw-500 cmn--btn align-items-center gap-2"
             >
               <span className="get__text">Hablemos Wsp</span>
               <span>
                 <ArrowRight className="fz-20" />
               </span>
-            </Link>
+            </a>
             <div
               onClick={handleHeaderToggle}
               className={`header-bar d-lg-none ${menuActive ? "active" : ""}`}
