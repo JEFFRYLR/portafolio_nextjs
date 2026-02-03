@@ -31,15 +31,18 @@ const Projects = () => {
               image={image}
               heading={heading}
               subHeading={subHeading}
-              openLightbox={openLightbox}
+              /* openLightbox={openLightbox}*/
               index={index}
-              navigate="/protfolio"
+               /* navigate="/protfolio" */ 
             />
           ))}
         </div>
 
         <div className="custom__hover">
-          <Link to={"/protfolio"}
+          <a 
+            href="https://co.linkedin.com/in/jeffrylarosa"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover__circle mauto"
             data-aos="zoom-out-down"
             data-aos-duration="2000"
@@ -49,7 +52,7 @@ const Projects = () => {
                <img src={personalInfoThumb} alt="Perfil de Linkedin" width={50} height={50}/><br/>
               <span className="textmore"> Perfil de Linkedin </span>
             </span>
-          </Link>
+          </a>
         </div>
       </div>
       {lightboxOpen && (

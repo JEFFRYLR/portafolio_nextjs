@@ -20,9 +20,10 @@ const Service = ({ heading, subHeading, para, id }) => {
         </div>
         <p className="pra">{para}</p>
       </div>
-      <Link to={"/service-details"} className="common__icon">
+     {/* <Link to={"/service-details"} className="common__icon"> */}
+     <div className="common__icon">
         <ArrowUpRight className="i" />
-      </Link>
+      </div>
     </div>
   );
 };
